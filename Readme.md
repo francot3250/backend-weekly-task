@@ -1,9 +1,9 @@
-Truncate a string (first argument) if it is longer than the given maximum string length (second argument). 
-The task is to use the second argument (a number) to check against the first argument(a string).
-truncate the length of the first argument to the value of the second argument; then add "..." at the ending.
-Return the truncated string with a ... ending.
+The algorithm to convert from Celsius to Fahrenheit is the temperature in Celsius times 9/5, plus 32.
 
+You are given a parameter celsius representing a temperature in Celsius.
+Use the variable fahrenheit already defined and assign it the Fahrenheit temperature equivalent to the given Celsius temperature. 
+Use the algorithm mentioned above to help convert the Celsius temperature to Fahrenheit.
 
-truncateString("A-", 1) => A....
-truncateString("Absolutely Longer", 2) => Ab....
-truncateString("A-tisket a-tasket A green and yellow basket", 8) => A-tisket...
+convertToF(-30) -> -22
+convertToF(-10) -> 14
+convertToF(0) -> 32
